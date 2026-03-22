@@ -1,5 +1,19 @@
 body {
     font-family: "Roboto", sans-serif;
+        color: #434455;
+        background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+address {
+    font-style: normal;
 }
 
 .header {}
@@ -44,6 +58,11 @@ body {
         color: #2e2f42;
 }
 
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: #404BBF;
+}
+
 .contacts {
     font-weight: 400;
         font-size: 16px;
@@ -60,6 +79,11 @@ body {
     color: #434455;
 }
 
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404BBF;
+}
+
 .hero {
     background-color: #2e2f42;
 }
@@ -74,14 +98,22 @@ body {
 }
 
 .hero-button { 
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #fff;
-    background-color: #4d5ae5;
+    font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background-color: #4D5AE5;
+        cursor: pointer;
+        border: none;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+            background-color: #404BBF;
+}
+    
 .features {}
 
 .visually-hidden {}
@@ -183,8 +215,6 @@ body {
 }
 
 .footer {
-    width: 1440px;
-        height: 80px;
         background: #2e2f42;
 }
 
